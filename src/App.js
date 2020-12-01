@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="Brand-header">
+          <a href="#home"><h1>CabCompanion <i style={{color:'#ffd100'}} class="fa fa-car"></i></h1></a>
+        </div>
+        <div className="Nav-header">
+          <ul>
+            <li><a class="active" href="#home">Cab</a></li>
+            <li><a href="#Accessories">Accessories</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div className="Signin-header">
+          
+          <ul>
+            <li>
+              <a href="#sign_in">
+                <i class="fa fa-user"></i>
+                Sign in
+              </a>
+            </li>
+          </ul>
+        </div>
       </header>
+      <body>
+        <div className="Content-core">
+
+        </div>
+      </body>
     </div>
   );
 }
