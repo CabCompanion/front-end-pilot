@@ -1,0 +1,43 @@
+.Search-bar{
+  padding-left: 161px;
+  padding-top: 50px;
+  margin-bottom: 10px; 
+}
+
+.Search-bar input{
+  float: left;
+  height: 45px;
+  width: 450px;
+  border-color: transparent;
+  border-radius: 2px;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
+  letter-spacing: 1px;
+  color: #101217;
+}
+
+::placeholder{
+  font-size: 16px;
+  opacity: 1;
+  color:#101217;
+  font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif;
+  letter-spacing: 0;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+  opacity: 0.7;
+  color:#101217;
+  font-weight: 900;
+  font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif;
+}
+
+.icon{
+  float: left;
+  background-color: black;
+  color: white;
+  margin-left: 5px;
+  height: 51px;
+  border-radius: 2px;
+}

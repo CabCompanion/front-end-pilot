@@ -1,5 +1,9 @@
 import './App.css';
 import { Link } from 'react-router-dom';
+import Search from './Search/Search';
+import React, { Component, useState } from 'react';
+import { render } from 'react-dom';
+
 
 function App() {
   return (
@@ -30,7 +34,13 @@ function App() {
       </header>
       <body>
         <div className="Content-core">
-
+          <section>
+            <h2>
+              Fare comparison.
+              <span>Made simple.</span>
+            </h2>
+          </section>
+          <Search></Search>
         </div>
       </body>
     </div>
