@@ -1,10 +1,12 @@
-.Search-bar{
+.Search-bar-begin{
   padding-left: 161px;
   padding-top: 50px;
   margin-bottom: 10px; 
+  -webkit-transition: margin 1s ease-in-out;
+  transition: margin 1s ease-in-out;
 }
 
-.Search-bar input{
+.Search-bar-begin input{
   float: left;
   height: 45px;
   width: 450px;
